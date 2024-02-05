@@ -1,0 +1,13 @@
+server: 
+  port: 81
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+
+# gpt 설정
+gpt:
+  model: gpt-3.5-turbo
+  api:
+    key: # gpt api키
+    url: https://api.openai.com/v1/chat/completions
